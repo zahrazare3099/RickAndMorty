@@ -1,0 +1,11 @@
+.Header .menuItem:hover {
+  color: blue;
+  text-decoration: underline;
+}
+.Header .menuItem:focus {
+  text-decoration: underline;
+}
+.Header .menuItem:focus {
+  color: blue;
+  text-decoration: underline;
+}
