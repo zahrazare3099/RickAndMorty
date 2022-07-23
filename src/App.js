@@ -1,10 +1,20 @@
 import "./App.css";
-import Header from "./components/Header";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./pages/Layout";
+import Location from "./pages/Location";
+import Episod from "./pages/Episod";
+import Characters from "./pages/Characters";
 function App() {
   return (
-    <div className="App">
-      <Header />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route path="Location" element={<Location />} />
+          <Route path="Episod" element={<Episod />} />
+          <Route path="Characters" element={<Characters />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
