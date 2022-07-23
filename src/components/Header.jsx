@@ -22,7 +22,7 @@ export default function Header() {
             </span>
           </Link>
 
-          <Link to="/Episod" className="text-muted text-decoration-none">
+          <Link to="/Episod" className="text-muted text-decoration-none px-1">
             <span className="menuItem"> Episod</span>
           </Link>
 

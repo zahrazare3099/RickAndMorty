@@ -1,0 +1,10 @@
+.Characters .scrollCard {
+  overflow-x: scroll;
+  white-space: wrap;
+  position: relative;
+}
+.Characters .disGrid {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  background-color: #dae5d0;
+}
